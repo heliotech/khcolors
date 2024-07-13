@@ -1,5 +1,5 @@
 # khcolors
-> Searching for color names
+> Searching for colour names
 
 <!-- [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -27,7 +27,7 @@ edit autoexec.bat
 
 ## Usage example
 
-```python
+```bash
 python khcolors.py blue
  Choose colour (number):
  0. [        color tile        ] blue
