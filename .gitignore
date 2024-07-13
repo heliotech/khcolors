@@ -1,0 +1,15 @@
+# Ignorowanie plików .pyc
+*.pyc
+
+# Ignorowanie katalogu z wirtualnym środowiskiem
+venv/
+
+# Ignorowanie plików konfiguracyjnych IDE
+.idea/
+.vscode/
+.repo_data
+
+# Ignorowanie plików tymczasowych
+*.swp
+*.tmp
+
