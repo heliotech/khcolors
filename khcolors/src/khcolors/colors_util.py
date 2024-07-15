@@ -25,6 +25,7 @@ def byte_rgb(color):
     """ Converts color to r, g, b in range [0, 1], to range [0, 255] """
 
     r, g, b = [item*255 for item in mcolors.to_rgb(color)]
+
     return f"rgb({r:.0f},{g:.0f},{b:.0f})"
 
 
