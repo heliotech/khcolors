@@ -74,7 +74,7 @@ khaz – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.co
 -->
 khaz –  pykhaz@o2.pl
 
-Distributed under the MIT license. See [LICENSE](khcolors/LICENSE) for more information.
+Distributed under the MIT license. See [LICENSE](khcolors/LICENSE.txt) for more information.
 
 <!--
 [https://github.com/yourname/github-link](https://github.com/dbader/)
