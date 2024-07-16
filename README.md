@@ -27,22 +27,11 @@ edit autoexec.bat
 
 ## Usage example
 
-```bash
-python khcolors.py blue
- Choose colour (number):
- 0. [        color tile        ] blue
- 1. [        color tile        ] bright_blue
-# ...
-29. [        color tile        ] light_sky_blue1
-30. [        color tile        ] light_steel_blue1
-Color name to copy? (0-30; <Enter> to exit): 30
-Color light_steel_blue1 copied to clipboard.
-python khcolors.py -c khaki
-Choose colour (number):
-0. [        color tile        ] darkkhaki
-1. [        color tile        ] khaki
-Color name to copy? (0-1; <Enter> to exit): 0
-Color darkkhaki copied to clipboard.
+<figure>
+    <img src="assets/khcolors_kitty.png" style="width: 50%;" title="usage: kitty linux" alt="image - usage: kitty linux" />
+    <figcaption>`khcolors`, usage: on linux mint, in kitty</figcaption>
+</figure>
+
 ```
 <!--
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
