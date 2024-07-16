@@ -30,16 +30,16 @@ edit autoexec.bat
 ## Usage example
 
 <figure>
-    <img src="assets/khcolors_kitty.png" style="width: 50%;" title="usage: kitty linux" alt="image - usage: kitty linux" />
     <figcaption>khcolors, usage: on linux mint, in kitty</figcaption>
+    <img src="assets/khcolors_kitty.png" style="width: 50%;" title="usage: kitty linux" alt="image - usage: kitty linux" />
 </figure>
 
 <br/>
 
 
 <figure>
-    <img src="assets/khcolors_powershell.png" style="width: 50%;" title="usage: powershell windows" alt="image - usage: powershell windows" />
     <figcaption>khcolors, usage: on windows, in powershell</figcaption>
+    <img src="assets/khcolors_powershell.png" style="width: 50%;" title="usage: powershell windows" alt="image - usage: powershell windows" />
 </figure>
 
 <!--
