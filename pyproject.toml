@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "khcolors"
 dynamic = ["version"]
 description = 'colour name choosing app, for rich and CSS4 palettes'
-readme = "../README.md"
+readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = ['color', 'colour', 'rich', 'css4']
@@ -62,3 +62,6 @@ exclude_lines = [
 
 [project.scripts]
 khcolors = "khcolors.__main__:main"
+
+[tool.hatch.metadata]
+source-directories = ["src"]

@@ -6,6 +6,7 @@ from rich.color import ANSI_COLOR_NAMES
 from rich.console import Console
 from rich.text import Text
 import pyperclip
+from platform import system
 
 ftitle = __file__.split("/", maxsplit=-1)[-1].split(".", maxsplit=-1)[0]
 
@@ -18,7 +19,10 @@ MARKER0 = "\u00a0"
 # MARKER1 = "x"  # \u2501
 # MARKER1 = "\u25cf"  # ●
 # MARKER1 = "◉"
-MARKER1 = "⏺"  # \u23fa
+if system().lower != "windows":  # platform.
+    MARKER1 = "⏺"  # \u23fa
+else:
+    MARKER1 = "o"
 
 
 def byte_rgb(color):
@@ -87,9 +91,10 @@ def print_color(i, name, color_base="rich", marg=3):
     clr = name if color_base == "rich" else byte_rgb(name)
     tile_len = 7
     color_tile = Text(f"{i:>{marg}}. ")
-    color_tile.append(MARKER0*tile_len, style=f"black on {clr}")
-    color_tile.append(MARKER1*tile_len, style=f"bold black on {clr}")
-    color_tile.append(MARKER1*tile_len, style=f"bold white on {clr}")
+    color_tile.append(MARKER0*tile_len, style=f"white on {clr}")
+    if system().lower != "windows":  # platform.
+        color_tile.append(MARKER1*tile_len, style=f"bold black on {clr}")
+        color_tile.append(MARKER1*tile_len, style=f"bold white on {clr}")
     color_tile.append(MARKER0*tile_len, style=f"white on {clr}")
     color_tile.append(f" {name}", style="white on black")
     cprint(color_tile)
