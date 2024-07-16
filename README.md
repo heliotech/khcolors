@@ -36,6 +36,7 @@ edit autoexec.bat
 
 <br/>
 
+
 <figure>
     <img src="assets/khcolors_powershell.png" style="width: 50%;" title="usage: powershell windows" alt="image - usage: powershell windows" />
     <figcaption>khcolors, usage: on windows, in powershell</figcaption>
