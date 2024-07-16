@@ -8,7 +8,9 @@
 <!-- One to two paragraph statement about your product and what it does. -->
 The application helps choosing a colour name from rich or CSS4 palettes. Presents a list of all the colours containing name given as a parameter.
 
-![](header.png)
+![Python version](https://img.shields.io/badge/Python-3.10-blue)
+![Packaged with hatch](https://img.shields.io/badge/Packaged%20with-hatch-60c7a8)
+
 <!--
 ## Installation
 
@@ -29,7 +31,12 @@ edit autoexec.bat
 
 <figure>
     <img src="assets/khcolors_kitty.png" style="width: 50%;" title="usage: kitty linux" alt="image - usage: kitty linux" />
-    <figcaption>`khcolors`, usage: on linux mint, in kitty</figcaption>
+    <figcaption>khcolors, usage: on linux mint, in kitty</figcaption>
+</figure>
+
+<figure>
+    <img src="assets/khcolors_powershell.png" style="width: 50%;" title="usage: powershell windows" alt="image - usage: powershell windows" />
+    <figcaption>khcolors, usage: on windows, in powershell</figcaption>
 </figure>
 
 <!--
@@ -59,9 +66,6 @@ khaz –  pykhaz@o2.pl
 
 Distributed under the MIT license. See [LICENSE](LICENSE.txt) for more information.
 
-<!--
-[https://github.com/yourname/github-link](https://github.com/dbader/)
--->
 [https://github.com/heliotech](https://github.com/heliotech/)
 
 

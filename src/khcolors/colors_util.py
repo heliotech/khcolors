@@ -19,7 +19,7 @@ MARKER0 = "\u00a0"
 # MARKER1 = "x"  # \u2501
 # MARKER1 = "\u25cf"  # ●
 # MARKER1 = "◉"
-if system().lower != "windows":  # platform.
+if system().lower() != "windows":  # platform.
     MARKER1 = "⏺"  # \u23fa
 else:
     MARKER1 = "o"
