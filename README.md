@@ -27,6 +27,14 @@ edit autoexec.bat
 ```
 -->
 
+## Build, install
+
+```sh
+cd khcolors
+hatch build
+pip install .
+```
+
 ## Usage example
 
 <figure>
