@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url] -->
 
 <!-- One to two paragraph statement about your product and what it does. -->
-The application helps choosing a colour name from rich or CSS4 palettes. Presents a list of all the colours containing name given as a parameter.
+The application helps choosing a colour name from `rich` or `CSS4` palettes. Presents a list of all the colours containing name given as a parameter.
 
 ![Python version](https://img.shields.io/badge/Python-3.10-blue)
 ![Packaged with hatch](https://img.shields.io/badge/Packaged%20with-hatch-60c7a8)
