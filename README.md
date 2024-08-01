@@ -1,4 +1,4 @@
-# khcolors
+# khcolors 🎨
 > Searching for colour names
 
 <!-- [![NPM Version][npm-image]][npm-url]
