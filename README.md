@@ -63,6 +63,8 @@ npm test
 
 ## Release History
 
+* 0.1.1
+    * Minor change of the result message
 * 0.1.0
     * First working version of the package
 * 0.0.1

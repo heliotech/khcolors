@@ -52,6 +52,13 @@ def get_color_name(search_for: str, palette: str = "rich") -> None:
     for color in colors_base:
         found.append(color) if search_for in color else None
     if not found:
+        if search_for == "name":
+            msg = Text.assemble(("Looking for color name ", ""),
+                                (f"{search_for}", "bold italic"),
+                                (" -- ", ""),
+                                ("seriously?", "bold italic red"))
+            cprint(msg)
+            return
         cprint(Text.assemble(("No color found for '", ""),
                (f"{search_for}", "bold"), ("', exiting.", "")))
         return
